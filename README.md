@@ -10,4 +10,6 @@ Figure 3 is the same as Figure 2 from [Quinn et al. (2017)](http://onlinelibrary
 
 The data for several figures is too large to share over Github, but can be downloaded [here](https://drive.google.com/drive/folders/1C6Srhp91xOcMjZvPp5Ngy-rGW2mFamFk?usp=drive_link). Pasting the files within `RedRiver_ForecastValue/baseline_100`, `RedRiver_ForecastValue/baseline_500`, `RedRiver_ForecastValue/HydroInfo_100` and `RedRiver_ForecastValue/HydroInfo_500` of that Google Drive folder to the corresponding folders of this repository will enable all figures to be plotted.
 
+The processing of the Pareto sets and performance of the sensitivity analysis follows the steps in processingSteps.txt in this folder. The figures in the paper can be made using the scripts in the PaperFigures directory.
+
 Licensed under the GNU Lesser General Public License.
