@@ -7,5 +7,6 @@
 7) find_overall_refSet.sh
 8) find_metrics.sh
 9) find_runtime_metrics.sh
-
-separate_input_params.py
+10) separate_input_params.py
+11) calcBaselineNumericalSIs.py
+12) calcHydroInfoNumericalSIs.py
