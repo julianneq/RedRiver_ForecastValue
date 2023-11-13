@@ -188,17 +188,17 @@ def getSolns_r(formulation, solnNo):
 
     doy = np.array(np.concatenate((np.arange(121,366,1),np.arange(1,121,1)),0))
     for day in range(365):
-        soln.allInputs[:,day,:] = pd.read_csv('../' + formulation.name + '/sensitivities/Soln' + \
+        soln.allInputs[:,day,:] = pd.read_csv('../' + formulation.name + '/perturbations/Soln' + \
                       str(soln.solnNo+1) + '/r/Delta0.005/' + soln.name + '_Soln' \
                       + str(soln.solnNo+1) + '_day' + str(doy[day]) + '.txt', \
                       sep=' ', names=inputNames, usecols=[0,1,2,3,4])
         
-        soln.allOutputs[:,day,:] = pd.read_csv('../' + formulation.name + '/sensitivities/Soln' + \
+        soln.allOutputs[:,day,:] = pd.read_csv('../' + formulation.name + '/perturbations/Soln' + \
                       str(soln.solnNo+1) + '/r/Delta0.005/' + soln.name + '_Soln' \
                       + str(soln.solnNo+1) + '_day' + str(doy[day]) + '.txt', \
                     sep=' ', names=outputNames, usecols=[5,6,7,8])
         
-        soln.allObjs[:,day,:] = pd.read_csv('../' + formulation.name + '/sensitivities/Soln' + \
+        soln.allObjs[:,day,:] = pd.read_csv('../' + formulation.name + '/perturbations/Soln' + \
                       str(soln.solnNo+1) + '/r/Delta0.005/' + soln.name + '_Soln' \
                       + str(soln.solnNo+1) + '_day' + str(doy[day]) + '.txt', \
                       sep=' ', names=objNames, usecols=[9,10,11])
