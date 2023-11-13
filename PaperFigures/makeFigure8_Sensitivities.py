@@ -26,8 +26,8 @@ def makeSensitivityFigures(opt=True):
     
         HI100_Hydro = getSolns_r(HydroInfo_100 , HydroInfo_100.bestHydro_opt)
         HI100_Deficit = getSolns_r(HydroInfo_100 , HydroInfo_100.bestDeficit_opt)
-        HI100_Flood100 = getSolns_r(HydroInfo_100 , HydroInfo_100.bestFlood500_opt)
-        HI100_Comp100 = getSolns_r(HydroInfo_100 , HydroInfo_100.compromise500_opt)
+        HI100_Flood100 = getSolns_r(HydroInfo_100 , HydroInfo_100.bestFlood100_opt)
+        HI100_Comp100 = getSolns_r(HydroInfo_100 , HydroInfo_100.compromise100_opt)
         
         HI500_Hydro = getSolns_r(HydroInfo_500 , HydroInfo_500.bestHydro_opt)
         HI500_Deficit = getSolns_r(HydroInfo_500 , HydroInfo_500.bestDeficit_opt)
@@ -46,8 +46,8 @@ def makeSensitivityFigures(opt=True):
     
         HI100_Hydro = getSolns_r(HydroInfo_100 , HydroInfo_100.bestHydro_reeval)
         HI100_Deficit = getSolns_r(HydroInfo_100 , HydroInfo_100.bestDeficit_reeval)
-        HI100_Flood100 = getSolns_r(HydroInfo_100 , HydroInfo_100.bestFlood500_reeval)
-        HI100_Comp100 = getSolns_r(HydroInfo_100 , HydroInfo_100.compromise500_reeval)
+        HI100_Flood100 = getSolns_r(HydroInfo_100 , HydroInfo_100.bestFlood100_reeval)
+        HI100_Comp100 = getSolns_r(HydroInfo_100 , HydroInfo_100.compromise100_reeval)
         
         HI500_Hydro = getSolns_r(HydroInfo_500 , HydroInfo_500.bestHydro_reeval)
         HI500_Deficit = getSolns_r(HydroInfo_500 , HydroInfo_500.bestDeficit_reeval)
