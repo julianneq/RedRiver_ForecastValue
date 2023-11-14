@@ -193,8 +193,8 @@ def makeSensitivityFigures(opt=True):
             fig.text(0.01, 0.625, 'Portion of Variance', va='center', rotation='vertical', fontsize=18)
             if suptitles[n] != '':
                 fig.suptitle(suptitles[n], fontsize=18)
-            else:
-                fig.text()
+            #else:
+            #    fig.text()
             fig.subplots_adjust(bottom=0.15,hspace=0.3, wspace=0.3)
             plt.figlegend([pSL,pHB,pTB,pTQ,pHNfcst,pInteract,dikeLine],\
                           [r'$s_t^{SL}$',r'$s_t^{HB}$',r'$s_t^{TB}$',r'$s_t^{TQ}$',r'$\tilde{z}_{t+2}^{HN}$','Interactions','Dike Height'],\
