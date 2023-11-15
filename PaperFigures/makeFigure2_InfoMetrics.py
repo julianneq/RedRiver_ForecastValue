@@ -16,7 +16,7 @@ set1[:,1] = set1[:,1] + 3
 set2 = np.array([[0,7],[0.5,6],[1,5],[1.5,4],[2,3],
                  [2.5,2],[3,1],[3.5,0],[4,-1]])
 
-set2[:,0] = set2[:,0] + 0.25
+set2[:,0] = set2[:,0] + 0.75
 set2[:,1] = set2[:,1] + 1.25
 
 # find reference set
@@ -188,9 +188,9 @@ def makePlotLabels(ax, ylim, sign):
 # univariate value bar chart
 ax4 = fig.add_subplot(2,2,4)
 ax4.bar(range(2), set2_benefits, color='tab:red')
-makePlotLabels(ax4, [-0.6,1.25], 'positive')
+makePlotLabels(ax4, [-1,1.25], 'positive')
 ax4.bar(range(2), set2_losses, color='tab:red')
-makePlotLabels(ax4, [-0.6,1.25], 'negative')
+makePlotLabels(ax4, [-1,1.25], 'negative')
 ax4.set_xticks(range(2))
 ax4.set_xticklabels(['Objective 1','Objective 2'],fontsize=16)
 ax4.set_ylabel('Average Value/Cost of\nForecast Information',fontsize=16)
