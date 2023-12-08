@@ -10,3 +10,4 @@
 10) separate_input_params.py
 11) calcBaselineNumericalSIs.py
 12) calcHydroInfoNumericalSIs.py
+13) findSetContribution.py
