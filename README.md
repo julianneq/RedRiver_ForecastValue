@@ -2,7 +2,7 @@
 
 This repository contains the code and results used to generate Figures 2, 4-8 and S1-S4 of Quinn et al. (In Review):
 
-Quinn, J.D., Reed, P.M., Giuliani, M., and Castelletti, A. (In Review). Assessing how the value of forecast information for multi-objective reservoir operations changes under different flood protection constraints. 
+Quinn, J.D., Reed, P.M., Giuliani, M., and Castelletti, A. (In Review). Average domination: a new multi-objective value metric applied to assess the benefits of forecasts in reservoir operations under different flood design levels. 
 
 Figure 1 was adapted manually from Figure 2 in [Giuliani et al. (2015)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015WR017044) using Adobe Illustrator.
 
